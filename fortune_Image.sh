@@ -18,7 +18,9 @@ export LANG="de_DE.UTF-8"
 #
 #         Die ersten 14 Bilder können von eigenen Webcams oder z.B. aus dem Internet geladen werden.
 #         Die im script geschriebene Links sind nur beispiele und sollten nicht verwendet werden.
+#
 #         Bild1: weiter unten eine Aldi Webcam das Modell Maginon IPC-100AC.
+
 news="https://img.welt.de/img/vermischtes/bilder-des-tages/mobile236400119/3901626827-ci23x11-w780/APTOPIX-Germany-Daily-Life.jpg" # Bild 2
 paris="https://cs3.wettercomassets.com/thumbnails/variants/58b6c68dcebfc036028b457d/700_394.jpg?_=1642941280" # Bild 3
 Ahlbeck="https://www.seetel.de/typo3temp/_processed_/csm_13_30_92d06f2b10.jpg" # Bild 4
@@ -32,6 +34,7 @@ Dangast="https://cs3.wettercomassets.com/thumbnails/variants/5da59a3aa5b4b9160a3
 Friedrichskoog="https://cs3.wettercomassets.com/thumbnails/variants/5d645757a5b4b937b3186c2f/16x9_player.jpg" # Bild 12
 Wien="https://cs3.wettercomassets.com/thumbnails/variants/b2cd96bc97e44737ad5efe51b1d748fd/16x9_player.jpg" # Bild 13
 Heidelberg="https://cs3.wettercomassets.com/thumbnails/variants/535f4eb6daf6f/16x9_player.jpg" # Bild 14
+
 #         Im original Ordner können alle Bilder gelöscht werden.
 #         Das script erstellt eigene Bilder aus den Original vorlagen des Ordners: exampleImages_null
 #
