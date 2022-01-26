@@ -68,6 +68,7 @@ Heidelberg="https://cs3.wettercomassets.com/thumbnails/variants/535f4eb6daf6f/16
 #
 #########################################################################################################
 # -----------Texte aus Fortunes de -------------
+#     fortune -f zeigt alle fortune Möglichkeiten
 #fortune="" # alle
 #fortune="sprichwortev"
 #fortune="sprichworte"
@@ -98,40 +99,6 @@ SCHRIFT2="NimbusSansNarrow-Bold"
 # -- Schriftgrösse --
 Grosse2=80 #26
 #-------------------------------------------------------------------
-#     fortune -f
-#     0,23% quiz
-#     6,64% unfug
-#     0,19% elefanten
-#     0,80% wusstensie
-#     0,59% lieberals
-#     0,19% asciiart
-#     0,20% anekdoten
-#     0,14% debian
-#     0,07% sprichwortev
-#     1,22% letzteworte
-#     0,27% tips
-#     0,11% vornamen
-#     1,79% regeln
-#     1,81% woerterbuch
-#     0,90% computer
-#     0,93% warmduscher
-#     0,11% bahnhof
-#     0,21% holenlassen
-#     2,81% namen
-#     1,54% sprueche
-#     1,60% fussball
-#     1,41% ms
-#     0,58% sprichworte
-#     0,19% translations
-#     0,12% loewe
-#     0,54% mathematiker
-#     5,70% witze
-#     0,21% sicherheitshinweise
-#     0,08% gedichte
-#    67,67% zitate
-#     0,63% stilblueten
-#     0,16% huhn
-#     0,32% murphy
 #
 # Aldi Kamera "Das Modell Maginon IPC-100AC" Bild import start ***********************************************************************************************************************************************
 
