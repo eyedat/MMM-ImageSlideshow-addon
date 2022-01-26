@@ -12,7 +12,7 @@ Die ersten 14 Bilder können von eigenen Webcams oder z.B. aus dem Internet gela
 Die im script geschriebene Links sind nur beispiele und sollten nicht verwendet werden.
 Bild1: Eine Aldi Webcam das Modell Maginon IPC-100AC.
 * news="xxx" # Bild 2
-* paris="xxx" # Bild 3
+* paris="xxx" # Bild 3 ... z.B: paris="https://cs3.wettercomassets.com/thumbnails/variants/58b6c68dcebfc036028b457d/700_394.jpg?_=1642941280"
 * Ahlbeck="xxx" # Bild 4
 * Hamburg="xxx" # Bild 5
 * Bremen="xxx" # Bild 6
