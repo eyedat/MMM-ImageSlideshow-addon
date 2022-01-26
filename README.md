@@ -28,15 +28,16 @@ Bild1: Eine Aldi Webcam das Modell Maginon IPC-100AC.
 Im original Ordner "exampleImages" können alle Bilder gelöscht werden.
 Das script erstellt eigene Bilder aus den Original vorlagen des Ordners: exampleImages_null
 
-*         Beispiel: /home/pi/MagicMirror/modules/MMM-ImageSlideshow/exampleImages/Fotos_$zaehler.png
+Beispiel: /home/pi/MagicMirror/modules/MMM-ImageSlideshow/exampleImages/Fotos_$zaehler.png
 #         Installation:
 
-* 1.
+* -1.-
 
         sudo apt-get update
         sudo apt install imagemagick fortunes-de
         
-* 2.
+* -2.-
+
 Bei bedarf die Schriften... (aus lizensgründen ist der Ordner: font nicht gefüllt)
 Hier könnte man den Inhalt des Orners füllen: 
                                                        https://www.1001freefonts.com/ 
@@ -45,7 +46,7 @@ Hier könnte man den Inhalt des Orners füllen:
                                                        
         sudo cp -r $pfad/font/* /usr/share/fonts/truetype/
 
-* 3.
+* -3.-
 
 Um alle 15 Minuten neue Texte unter Fortune zu generieren
 und diese in die Bilder zu schreiben,
