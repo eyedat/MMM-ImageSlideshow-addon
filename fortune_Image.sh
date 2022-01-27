@@ -63,7 +63,6 @@ Heidelberg="https://cs3.wettercomassets.com/thumbnails/variants/535f4eb6daf6f/16
 #         sudo crontab -l
 #         sudo service cron reload
 #
-#
 #########################################################################################################
 # -----------Texte aus Fortunes de -------------
 #     fortune -f zeigt alle fortune Möglichkeiten
@@ -119,11 +118,8 @@ convert $pfad/exampleImages_null/Fotos_Kamera.png -gravity South -font $SCHRIFT2
 #-------------------------------------------------
 # cp $pfad/exampleImages_null/Fotos_1.png $pfad/exampleImages_null/Fotos_17.png 
 #-------------------------------------------------
-
-
 # Löschen der Bearbeitungsdatein
 sleep 1 && rm $pfad/exampleImages_null/snapshot.cgi && rm $pfad/exampleImages_null/_cam.png && rm $pfad/exampleImages_null/Fotos_Kamera.png
-
 # Kamera import ende      ***********************************************************************************************************************************************
 #
 # Bild des Tages import start ***********************************************************************************************************************************************
