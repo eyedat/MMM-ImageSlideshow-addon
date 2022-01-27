@@ -67,6 +67,11 @@ Heidelberg="https://cs3.wettercomassets.com/thumbnails/variants/535f4eb6daf6f/16
 # -----------Texte aus Fortunes de -------------
 # ls /usr/share/games/fortunes-de/ | grep .dat # zeigt alle Einträge
 #     fortune -f zeigt alle fortune Möglichkeiten
+# Mehr Möglichkeiten viel Text als Bild zu generieren wäre:
+# apt install cowsay
+# cowsay -f "$(ls /usr/share/cowsay/cows/ | sort -R | head -1)" "$(fortune -s)"
+# dieserbefehl sollten unten angepasst werden ...
+#
 #fortune="" && sedvar=""# alle
 #fortune="sprichwortev" && sedvar=""
 #fortune="sprichworte" && sedvar=""
@@ -250,6 +255,7 @@ TEXT=$(cat $pfad/TEXT_des_Tages.txt)
             
 while [ $zaehler -le $BIS ]  #zählt bis z.B. 22 Fotos_1 - 22
 do # /usr/games/fortune $fortune 
+# cowsay -f '$(ls /usr/share/cowsay/cows/ | sort -R | head -1)' '$(/usr/games/fortune $fortune | sed "$sedvar")' > $pfad/TEXT_des_Tages.txt # noch nicht ausprobiert ...
 /usr/games/fortune $fortune | sed "$sedvar" > $pfad/TEXT_des_Tages.txt
 TEXT=$(cat $pfad/TEXT_des_Tages.txt)
 sleep 0.1
