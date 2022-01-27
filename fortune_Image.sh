@@ -94,6 +94,7 @@ Grosse=23 #26
 #-------------------------------------------------------------------
 # -----------Schriften für Cam-Namen Bilder umwandlung -------------
 SCHRIFT2="NimbusSansNarrow-Bold"
+#SCHRIFT2="adventure"
 # -- Schriftgrösse --
 Grosse2=80 #26
 #-------------------------------------------------------------------
