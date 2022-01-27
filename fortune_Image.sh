@@ -1,7 +1,5 @@
 #!/bin/bash
-PWD=`pwd`
-pfad=`pwd`
-export LANG="de_DE.UTF-8"
+pfad=$(echo `pwd` | cut -d ' ' -f 2)
 # Zählen von 1 bis x 
 #  ©2020 
 # Nils-Oliver Surowietz
@@ -69,16 +67,16 @@ Heidelberg="https://cs3.wettercomassets.com/thumbnails/variants/535f4eb6daf6f/16
 #########################################################################################################
 # -----------Texte aus Fortunes de -------------
 #     fortune -f zeigt alle fortune Möglichkeiten
-#fortune="" # alle
-#fortune="sprichwortev"
-#fortune="sprichworte"
-#fortune="sprueche"
-fortune="zitate"
-#fortune="anekdoten"
-#fortune="wusstensie"
-#fortune="sicherheitshinweise"
-#fortune="warmduscher"
-#fortune="woerterbuch"
+#fortune="" && sedvar=""# alle
+#fortune="sprichwortev" && sedvar=""
+#fortune="sprichworte" && sedvar=""
+#fortune="sprueche" && sedvar=""
+#fortune="zitate" && sedvar=""
+#fortune="anekdoten" && sedvar=""
+#fortune="wusstensie" && sedvar=""
+#fortune="sicherheitshinweise" && sedvar=""
+fortune="warmduscher " && sedvar="s/Hallo*/Du bist ein/"
+#fortune="woerterbuch" && sedvar=""
 # -----------Schriften für alle Bilder umwandlung -------------
 # https://freefontsdownload.net/free-republica_minor-font-42514.htm 
 # https://fonts2u.com/extenda-40-hecto.font
@@ -241,23 +239,21 @@ sleep 2 && rm $pfad/exampleImages_null/Heidelberg.jpg && rm $pfad/exampleImages_
 
 # Bild Heidelberg import ende   ***********************************************************************************************************************************************
 # Das eigentliche Script:
-
+echo "---Umwandlung-------------------------------------------------------------------------------------------------------"
 zaehler=1                                 #zählt von z.B. 1
 BIS=$(ls $pfad/exampleImages_null | grep -c Fotos_)  #zählt von z.B. 22
 TEXT=$(cat $pfad/TEXT_des_Tages.txt)
-              
+            
 while [ $zaehler -le $BIS ]  #zählt bis z.B. 22 Fotos_1 - 22
 do # /usr/games/fortune $fortune 
-/usr/games/fortune $fortune > $pfad/TEXT_des_Tages.txt
+/usr/games/fortune $fortune | sed "$sedvar" > $pfad/TEXT_des_Tages.txt
 TEXT=$(cat $pfad/TEXT_des_Tages.txt)
 sleep 0.1
-
 convert $pfad/exampleImages_null/Fotos_$zaehler.png -gravity North -font "$SCHRIFT" -pointsize $Grosse -fill yellow -draw "text 0,0 '$TEXT'" $pfad/exampleImages/Fotos_$zaehler.png
-
-echo "fortune $fortune > $pfad/TEXT_des_Tages.txt"
-echo "convert $pfad/exampleImages_null/Fotos_"$zaehler".png"
-echo
+#echo "fortune $fortune > $pfad/TEXT_des_Tages.txt"
+echo "convert "$zaehler".png"
 
 zaehler=`expr $zaehler + 1`    # +2 wäre jeder zweiter
 done
+echo "---Fertig!---"
 exit 0
