@@ -114,8 +114,14 @@ composite -gravity Center $pfad/exampleImages_null/_cam.png $pfad/exampleImages_
 
 convert $pfad/exampleImages_null/Fotos_Kamera.png -gravity South -font $SCHRIFT2 -pointsize 50 -fill yellow -draw "text 0,0 'IP der Maginon IPC-100AC'" $pfad/exampleImages_null/Fotos_1.png
 
-# Löschen der Bearbeitungsdatein
+# erhötes Zeigen start ##### ACHTUNG Zahlen sollten auf Fotos angepasst werden !!!
+# cp $pfad/exampleImages_null/Fotos_1.png $pfad/exampleImages_null/Fotos_16.png 
+#-------------------------------------------------
+# cp $pfad/exampleImages_null/Fotos_1.png $pfad/exampleImages_null/Fotos_17.png 
+#-------------------------------------------------
 
+
+# Löschen der Bearbeitungsdatein
 sleep 1 && rm $pfad/exampleImages_null/snapshot.cgi && rm $pfad/exampleImages_null/_cam.png && rm $pfad/exampleImages_null/Fotos_Kamera.png
 
 # Kamera import ende      ***********************************************************************************************************************************************
