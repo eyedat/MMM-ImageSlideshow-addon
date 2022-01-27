@@ -1,5 +1,6 @@
 # MMM-ImageSlideshow-addon
 Fortune-Sprüche auf eigene oder auf aktuelle Webcam Bildern gelegt mit Ramen für den Maggic-Mirror.
+fortune-de = https://de.wikipedia.org/wiki/Fortune_(Computerprogramm)
 z.B. für die Modulanwendung MMM-ImageSlideshow
 Das script fortune_Image.sh,
 den Ordner exampleImages_null (alle zukünftigen Bilder müssen chronologisch Foto_15.png bis z.B Foto_888.png)
