@@ -65,6 +65,7 @@ Heidelberg="https://cs3.wettercomassets.com/thumbnails/variants/535f4eb6daf6f/16
 #
 #########################################################################################################
 # -----------Texte aus Fortunes de -------------
+# ls /usr/share/games/fortunes-de/ | grep .dat # zeigt alle Einträge
 #     fortune -f zeigt alle fortune Möglichkeiten
 #fortune="" && sedvar=""# alle
 #fortune="sprichwortev" && sedvar=""
