@@ -2,8 +2,8 @@
 pfad=$(echo `pwd` | cut -d ' ' -f 2)
 echo "Das Script >erzeuge_webcam_bilder_mit_zeitstempel.sh< wurde zuletze Ausgeführt: "$(date '+%Y-%m-%d_%H:%M:%S') >> /home/pi/MagicMirror/LOG-DATEI_cronjob-FORTUNSCRIPT.txt
 BENUTZER="admin" 
-PASSWORT="Med-USA123" 
-CAMIP="192.168.0.23" 
+PASSWORT="passwort" 
+CAMIP="192.168.0.xx" 
 name="Hof-Cam"
 sleep=25
 timestamp=$(date '+%Y%m%d-%H%M%S') 
