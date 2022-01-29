@@ -5,7 +5,7 @@ z.B. für die Modulanwendung MMM-ImageSlideshow
 Das script fortune_Image.sh,
 den Ordner exampleImages_null (alle zukünftigen Bilder müssen chronologisch Foto_15.png bis z.B Foto_888.png)
 
-<img src="https://github.com/eyedat/MMM-ImageSlideshow-addon/blob/main/Fortune-script_eye.gif?raw=true" alt="">CAM_downloader-Fortune-script_Beispiel.gif
+<img src="https://github.com/eyedat/MMM-ImageSlideshow-addon/blob/main/animated_cam_gif/Fortune-script_eye.gif?raw=true" alt="">CAM_downloader-Fortune-script_Beispiel.gif
 
 
 /home/pi/MagicMirror/modules/MMM-ImageSlideshow/fotune.sh
