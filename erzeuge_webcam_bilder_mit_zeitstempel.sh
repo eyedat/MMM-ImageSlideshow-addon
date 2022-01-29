@@ -5,7 +5,7 @@ BENUTZER="admin"
 PASSWORT="passwort" 
 CAMIP="192.168.0.xx" 
 name="Hof-Cam"
-sleep=25 # # das script sollte unter den Minuten im cronjob bleiben inclusive der konvertierung ! (unter 15min)
+sleep=25 # # das script sollte unter den Minuten im cronjob bleiben inclusive der Konvertierung in GIF ! (unter 15min)
 timestamp=$(date '+%Y%m%d-%H%M%S') 
 #1.Bild mit Text
 wget -O $pfad/animated_cam_gif/snapshot.cgi http://$BENUTZER:$PASSWORT@$CAMIP/snapshot.cgi 
