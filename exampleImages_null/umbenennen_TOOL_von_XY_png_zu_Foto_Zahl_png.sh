@@ -1,5 +1,5 @@
 #!/bin/sh
-# Zum vorbereiten für das "" Script und Umbenenn von zufälligen Namen xy.png in Foto_zahl.png
+# Zum vorbereiten für das "fortune_Image.sh" Script und Umbenenn von zufälligen Namen xy.png in Foto_zahl.png
 PWD=`pwd`
 
 ab=16 # Wenn die erste Datei aus dem script "Fotos_16.png" produziert wird
